@@ -2,16 +2,17 @@
 
 ## Project Overview
 
-GamePulse is a data analytics project focused on understanding online gaming behaviour, player engagement, and in-game purchase patterns. The project uses Python-based data analysis and machine learning techniques to explore player characteristics, identify behavioural patterns, segment players, and classify engagement levels.
+GamePulse is a data analytics project focused on understanding online gaming behaviour, player engagement, and in-game purchase patterns. Using Python and machine learning techniques, the project explores player characteristics, identifies behavioural patterns, segments players, and classifies engagement levels.
 
 The project follows an end-to-end workflow, from data inspection and exploratory data analysis to statistical testing, clustering, anomaly detection, and predictive modelling.
 
 ## Dataset
 
-- **Dataset:** [Predict Online Gaming Behavior Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset)
+- **Dataset Name:** Predict Online Gaming Behavior Dataset
+- **Dataset URL:** https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset
 - **Records:** 40,034
 - **Original Features:** 13
-- **Target Variable:** EngagementLevel
+- **Target Variable:** `EngagementLevel`
 
 The dataset contains information about player demographics, gaming preferences, playtime, session activity, player progression, achievements, and in-game purchases.
 
@@ -20,8 +21,10 @@ The dataset contains information about player demographics, gaming preferences, 
 ## Tools and Technologies
 
 - Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 - SciPy
 - Scikit-learn
 - Kaggle Notebooks
@@ -62,7 +65,7 @@ The dataset contains information about player demographics, gaming preferences, 
 ### 7. Predictive Modelling
 - Built classification models to predict player engagement levels.
 - Compared a baseline model, Logistic Regression, and Random Forest.
-- Evaluated performance using accuracy, precision, recall, and F1-score.
+- Evaluated model performance using accuracy, precision, recall, and F1-score.
 
 The Random Forest model achieved approximately 89.97% accuracy when session frequency and average session duration were included. However, these features may be closely related to how engagement levels were defined. Potential target leakage must therefore be considered, and this result should not be interpreted as proof of reliable real-world predictive performance.
 
@@ -102,4 +105,4 @@ The project emphasises interpreting results carefully, communicating findings cl
 
 ## Project Notebook
 
-Explore the complete analysis in the [GamePulse Kaggle Notebook](https://www.kaggle.com/code/sahilmo/gamepulse).
+Kaggle Notebook: https://www.kaggle.com/code/sahilmo/gamepulse
