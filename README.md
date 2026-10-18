@@ -22,7 +22,6 @@ The dataset contains information about player demographics, gaming preferences, 
 
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
 - SciPy
